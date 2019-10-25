@@ -1,0 +1,90 @@
+// grip
+.container-fluid,
+.main-content.col {
+  padding: 0px;
+}
+.row {
+  margin: 0px;
+}
+.page-header {
+  padding-bottom: 0px;
+}
+//color
+$red: #bc1d17;
+$black: rgb(29, 29, 29);
+$gray: rgb(101, 107, 111);
+
+//fonts
+$font-bold: 'Square721Bt-Bold';
+$font-roman: 'Square721Bt-Roman';
+
+//banner y comedy
+%Headline {
+  font-family: $font-roman;
+  font-size: 2rem;
+  line-height: 1.05;
+  display: block;
+  margin-bottom: 30px;
+  @media (min-width: 768px) {
+    font-size: 52px;
+  }
+}
+%Supporting_Copy {
+  font-family: $font-roman;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.702);
+  line-height: 1.083;
+  display: block;
+  margin-bottom: 30px;
+  @media (min-width: 768px) {
+    font-size: 1.42rem;
+  }
+}
+
+// titulo
+%h2 {
+  font-family: $font-roman;
+  font-size: 3rem;
+  color:  $red;
+  line-height: 1.058;
+  display: block;
+  margin-bottom: 15px;
+  @media (min-width: 768px) {
+    font-size: 52px;
+  }
+}
+//sub titulo
+%sub-titulo {
+  font-family: $font-roman;
+  font-size: 1rem;
+  color: $black;
+  line-height: 1.083;
+  display: block;
+  margin-bottom: 15px;
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+//descripcion
+%description {
+  font-family: $font-roman;
+  font-size: .84rem;
+  color: $gray;
+  line-height: 1.688;
+  display: block;
+  margin-bottom: 15px;
+  @media (min-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+//menu administrador
+.user-logged-in header nav#navbar-main {
+  position: initial;
+  background: transparent !important;
+  text-transform: uppercase;
+}
+.user-logged-in.scrolled header nav#navbar-main {
+  position: fixed;
+  background-color: $black !important;
+}

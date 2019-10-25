@@ -1,0 +1,34 @@
+/* TYPOGRAPHY */
+
+
+/* Google Fonts */
+
+//@import url("https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic");
+//@import url("https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900");
+// font families
+$font-custom:  '../fonts/square721bt' !default;
+
+
+@font-face {
+  font-family: 'Square721Bt-Bold';
+  src: url('#{$font-custom}/Square721Bt-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Square721Bt-Roman';
+    src: url('#{$font-custom}/Square721Bt-Roman.ttf') format('truetype');
+}
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-lg: 1.25rem; //20px
+$font-size-sm: .875rem; //14px
+$font-size-xs: .75rem;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.5;
+$font-size-h1: 2.5rem;
+$font-size-h2: 2rem;
+$font-size-h3: 1.75rem;
+$font-size-h4: 1.5rem;
+$font-size-h5: 1.25rem;
+$font-size-h6: 1rem;

@@ -1,0 +1,40 @@
+.site-footer{
+  padding: 0;
+  background-color: $black !important;
+  .container{
+    text-align: center;
+  }
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;  
+  .block {
+    width: 100%;
+    border-color: transparent;
+    margin: 0;
+    line-height: 5px;
+    text-transform: uppercase;
+  }
+  .region-footer-first {
+    width: 100%;
+    justify-content: center;  
+    flex-direction: column;  
+    padding-top: 25px;
+    a {
+      color: $blue;
+      text-transform: uppercase;
+      padding: 0px;
+      margin: 0px;
+      img {
+        width: 55px;        
+      }
+      // @media (max-width:768px) {
+      //   width: 100%;
+      //   margin: 0px;
+      //   display: flex;
+      //   flex-direction: column;
+      //   justify-content: center;
+      //   align-items: center;
+      // }
+    }
+  }
+}

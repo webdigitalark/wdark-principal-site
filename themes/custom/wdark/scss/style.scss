@@ -1,0 +1,120 @@
+/*
+Theme Name: Bootstrap 4 Sass
+Description: Bootstrap 4 with Sass
+*/
+
+// import files
+@import "import";
+
+/* GENERAL STYLES
+-------------------------------------------------*/
+
+body {
+  font-family: $font-roman;
+  font-size: $font-size-base;
+  background: $black;
+  color: #5ABAE1;
+}
+
+/* COLORS
+--------------------------------------------------*/
+
+a {
+    color: $blue;
+    &:hover{
+      color: white;
+      text-decoration: none;
+    }
+}
+
+.bg-inverse {
+    background: $blue;
+}
+
+// .site-footer {
+//     background: $accent-shade !important;
+// }
+
+.menu--main li a {
+    color: $blue;
+}
+
+.menu--account li a {
+    color: $primary-shade;
+}
+
+.site-name-slogan a {
+    text-decoration: none;
+}
+
+.card-group img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.card-group .field--type-image {
+    margin: 0
+}
+
+.slick {
+    width: 100%;
+}
+
+.slick>div {
+    margin: 0 15px;
+}
+
+.view-social-links{
+  .row{
+    justify-content: center;
+    a{
+      text-transform: uppercase;
+      padding: 0px;
+      margin: 0px;
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      position: relative;
+      margin: 0 8px;
+      text-align: center;
+      display: inline-block;
+      &::before{
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid $blue;
+        border-radius: 2px;
+        transform: rotate(45deg);
+        transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      }
+      &:hover{
+        color: black;
+        &::before{
+          background: $blue;
+          
+        }
+               
+      }
+      i{
+        position: relative;
+        top: 0;
+        left: 0;        
+        &.fa-Facebook{
+          &::before{
+            content: "\f09a";
+          }
+        }
+        &.fa-LinkedIn{
+          &::before{
+            content:"\f0e1";
+          }
+        }        
+      }
+    }
+  }
+}
