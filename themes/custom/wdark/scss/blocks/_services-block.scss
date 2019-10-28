@@ -46,15 +46,9 @@
     .view-content{
       color:$black;
       background: white;
-      float: right;
-      min-height: 300px;
-      position: relative;
-      overflow: hidden;
-      background: #fffffff7;
-      background-size: cover;
+      min-height: 50vh;
       @media (min-width: 992px){
         width: 61.8%;
-        float: right;
       }        
       h2{
         display:none;
