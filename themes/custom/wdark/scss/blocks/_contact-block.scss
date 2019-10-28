@@ -1,9 +1,9 @@
 .contact-block{
-  background: white;
+  background: black;
   width: 100%;
   padding: 40px 0;
   position:relative;
-  color: black;
+  // color: black;
   .view-contactenos{
     .view-header{
       text-align: center;
@@ -14,14 +14,14 @@
       margin-top: 40px;
       @media (min-width: 768px){
         flex-direction: row;
-        margin: 10%;
+        margin: 5% 10% 0 10%;
       }  
       @media (min-width: 1520px){
-        margin: 10% 25%;
+        // margin: 10% 25%;
       }                  
       .views-row{
         position:relative;
-        color: #444;
+        color: white;
         transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
         text-align: center;
         @media (min-width: 769px){
@@ -37,13 +37,8 @@
           color: transparent;
           // padding-bottom: 20px;
           &::before{
-            color: black;
+            color: white;
             font-size: 40px; 
-          }
-        } 
-        a{
-          &:hover{
-            color:black;           
           }
         }                     
         h2{
