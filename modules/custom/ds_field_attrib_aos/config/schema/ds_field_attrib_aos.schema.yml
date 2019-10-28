@@ -1,0 +1,17 @@
+field.formatter.third_party.ds_field_attrib_aos:
+  type: mapping
+  label: 'Field Formatter aos-data entity display settings'
+  mapping:
+    aos_data:
+      type: string
+      label: aos-data
+    data_aos_duration:
+      type: string
+      label: data-aos-duration
+    data_aos_delay:
+      type: string
+      label: data-aos-delay
+    data_aos_easing:
+      type: string
+      label: data-aos-easing
+

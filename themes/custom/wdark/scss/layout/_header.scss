@@ -10,7 +10,7 @@ header img {
 
 .navbar {
   background: linear-gradient(rgba(0, 0, 0, 0.5),transparent);
-  position: initial ;
+  text-transform: uppercase;
   .navbar-collapse {
     .nav {
       .nav-item {
@@ -18,6 +18,7 @@ header img {
           color: $blue;
           &.active {
             border-bottom: 1px solid white;
+            color: white;
           }
           &:hover{
             color: white;

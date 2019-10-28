@@ -1,0 +1,14 @@
+name: Ds Field attributes aos
+type: module
+description: "Provides custom HTML attributes settings for field formatters."
+# core: 8.x
+package: ds
+dependencies:
+  - field
+libraries:
+  - ds_field_attrib_aos/aos-library
+# Information added by Drupal.org packaging script on 2018-04-01
+version: '8.x-1.1'
+core: '8.x'
+project: 'ds_field_attrib_aos'
+datestamp: 1522603686

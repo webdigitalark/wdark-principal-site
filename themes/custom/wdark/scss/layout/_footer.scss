@@ -1,12 +1,11 @@
 .site-footer{
   padding: 0;
   background-color: $black !important;
-  .container{
-    text-align: center;
-  }
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;  
+  text-align: center;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto; 
+  color: white; 
   .block {
     width: 100%;
     border-color: transparent;
@@ -35,6 +34,12 @@
       //   justify-content: center;
       //   align-items: center;
       // }
+    }
+  }
+  .region-footer-fifth {
+    a {
+      color: $blue;
+      text-transform: uppercase;
     }
   }
 }

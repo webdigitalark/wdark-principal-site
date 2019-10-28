@@ -12,6 +12,9 @@
       if($('#page')){
         $('#page').attr('class', 'content--canvas')	
       }
+      if($('.about-block')){
+        $('.about-block .field--name-field-ver-mas a').append('<i class="fa fa-angle-right"></i>');
+      }
 
     }
   };

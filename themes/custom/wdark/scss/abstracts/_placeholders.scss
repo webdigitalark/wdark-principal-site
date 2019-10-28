@@ -45,7 +45,18 @@ $font-roman: 'Square721Bt-Roman';
 %h2 {
   font-family: $font-roman;
   font-size: 3rem;
-  color:  $red;
+  color:  $blue;
+  line-height: 1.058;
+  display: block;
+  margin-bottom: 15px;
+  @media (min-width: 768px) {
+    font-size: 52px;
+  }
+}
+%h2-white {
+  font-family: $font-roman;
+  font-size: 3rem;
+  color:  $black;
   line-height: 1.058;
   display: block;
   margin-bottom: 15px;
@@ -88,3 +99,4 @@ $font-roman: 'Square721Bt-Roman';
   position: fixed;
   background-color: $black !important;
 }
+

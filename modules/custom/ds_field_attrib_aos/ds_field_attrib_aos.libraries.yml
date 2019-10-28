@@ -1,0 +1,9 @@
+aos-library:
+  css:
+    theme:
+      css/aos.css: {}
+  js:
+    js/aos.js: {}
+    js/script.js: {}
+  dependencies:
+    - core/jquery
