@@ -32,7 +32,20 @@
           $name = $name.slice(0,2);
           jQuery('ul.language-switcher-language-url').siblings('a').html($name+'<i class="fa fa-angle-down"></i>');
         }      
-
+      	$('.navbar-nav .nav-link').on('click', function(e){
+      		e.preventDefault();
+      		var $targetClass = $(this).attr('href');          
+          $targetClass = $targetClass.replace('#','.');
+      		// console.log($targetClass);
+      		// console.log(jQuery("."+$targetClass).position());
+      		if ($targetClass &&  jQuery($targetClass).position() != undefined) {
+      			jQuery("html").animate({scrollTop: jQuery($targetClass).position().top-100, duration: 750});	
+            $('.navbar-nav .nav-link '+$targetClass).addClass('is-active');
+      		}else{
+      			return true;
+      		}
+      	    
+      	});        
     }
   };
 
