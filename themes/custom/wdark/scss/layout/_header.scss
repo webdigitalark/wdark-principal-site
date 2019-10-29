@@ -24,6 +24,32 @@ header img {
             color: white;
           }          
         }
+        .dropdown-menu{
+          background: rgba(30,30,30, .97);
+          .dropdown-item{
+            a{
+              display: block;
+              width: 100%;
+              height: auto;
+              line-height: 1.3;              
+              padding: 11px 15px;
+              font-size: 13px;
+              text-align: left;
+              letter-spacing: 0;
+              color: $blue;
+              cursor: pointer; 
+              text-transform: uppercase;
+              &:hover{
+                background: rgba(255,255,255, .09);
+                color: white !important;
+              }              
+            }
+            &:hover{
+              background: rgba(255,255,255, .09);
+              color: white !important;
+            } 
+          }
+        }
       }
     }
   }

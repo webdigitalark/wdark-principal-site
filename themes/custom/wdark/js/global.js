@@ -45,7 +45,17 @@
       			return true;
       		}
       	    
-      	});        
+      	}); 
+        if($('.navbar-nav .nav-item .dropdown-menu')){
+          $('.navbar-nav').hover(function(){
+            $(this).find('.dropdown-menu:first').addClass('show');
+            $(this).parents('.navbar-nav').addClass('show');
+            //.toogleClass('show')
+          },function(){
+            $(this).find('.dropdown-menu:first').removeClass('show');
+            $(this).parents('..navbar-nav').removeClass('show');
+          })
+        }       
     }
   };
 
