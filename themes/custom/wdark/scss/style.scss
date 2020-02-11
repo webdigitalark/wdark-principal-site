@@ -20,7 +20,7 @@ body {
 --------------------------------------------------*/
 
 a {
-    color: $blue;
+    color: $primary-header;
     &:hover{
       color: white;
       text-decoration: none;
@@ -87,7 +87,7 @@ a {
         position: absolute;
         top: 0;
         left: 0;
-        border: 1px solid $blue;
+        border: 1px solid $primary-header;
         border-radius: 2px;
         transform: rotate(45deg);
         transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -95,15 +95,15 @@ a {
       &:hover{
         color: black;
         &::before{
-          background: $blue;
-          
+          background: $primary-header;
+
         }
-               
+
       }
       i{
         position: relative;
         top: 0;
-        left: 0;        
+        left: 0;
         &.fa-Facebook{
           &::before{
             content: "\f09a";
@@ -113,7 +113,7 @@ a {
           &::before{
             content:"\f0e1";
           }
-        }        
+        }
       }
     }
   }

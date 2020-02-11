@@ -4,8 +4,8 @@
   text-align: center;
   width: 100%;
   margin-right: auto;
-  margin-left: auto; 
-  color: white; 
+  margin-left: auto;
+  color: white;
   .block {
     width: 100%;
     border-color: transparent;
@@ -15,30 +15,28 @@
   }
   .region-footer-first {
     width: 100%;
-    justify-content: center;  
-    flex-direction: column;  
+    justify-content: center;
+    flex-direction: column;
     padding-top: 25px;
+    .simple-brand{
+      padding:0;
+      p{
+        margin:0;
+      }
+    }
     a {
-      color: $blue;
+      color: $primary-header;
       text-transform: uppercase;
       padding: 0px;
       margin: 0px;
       img {
-        width: 55px;        
+        width: 75px;
       }
-      // @media (max-width:768px) {
-      //   width: 100%;
-      //   margin: 0px;
-      //   display: flex;
-      //   flex-direction: column;
-      //   justify-content: center;
-      //   align-items: center;
-      // }
     }
   }
   .region-footer-fifth {
     a {
-      color: $blue;
+      color: $primary-header;
       text-transform: uppercase;
     }
   }

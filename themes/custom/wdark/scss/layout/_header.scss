@@ -1,6 +1,6 @@
 //primer nivel
 header img {
-  width: 50px;
+  width: 200px;
   // height: 25px;
 }
 
@@ -9,13 +9,13 @@ header img {
 */
 
 .navbar {
-  background: black;
+  // background: black;
   text-transform: uppercase;
   .navbar-collapse {
     .nav {
       .nav-item {
         a {
-          color: $blue;
+          color: $primary-header;
           &.active {
             border-bottom: 1px solid white;
             color: white;
@@ -25,7 +25,7 @@ header img {
           }
         }
         .dropdown-menu{
-          background: rgba(30,30,30, .97);
+          // background: rgba(30,30,30, .97);
           .dropdown-item{
             a{
               display: block;
@@ -36,7 +36,7 @@ header img {
               font-size: 13px;
               text-align: left;
               letter-spacing: 0;
-              color: $blue;
+              color: $primary-header;
               cursor: pointer;
               text-transform: uppercase;
               &:hover{
@@ -121,7 +121,7 @@ button.navbar-toggler {
 .toggle-narbar #main-wrapper {
   overflow-x: hidden;
   transform: translateX(-240px);
-  transition: 0.5s ease-in-out 0.5s;
+  transition: 1s ease-in-out 1s;
 }
 //collapse
 @media (max-width: 768px) {
@@ -176,73 +176,13 @@ button.navbar-toggler {
 /*
 * Decktop Scroll
 */
-@media (min-width: 768px) {
-  .scrolled {
-    .navbar {
-      background: $black;
-      transition: background .5s ease;
-    }
-    // .fixed-top {
-    //   width: 0px;
-    //   height: 100vh;
-    //   background: $black !important;
-    //   //container
-    //   > .container {
-    //     flex-direction: column !important;
-    //     align-items: end;
-    //   }
-    //   //Imgen
-    //   a.navbar-brand {
-    //     display: none;
-    //   }
-    //   //Enlace menu
-    //   .nav {
-    //     flex-direction: column !important;
-    //     .nav-item {
-    //       position: relative;
-    //       padding: 20px 0px;
-    //       line-height: 1;
-    //       &.active{
-    //         .nav-link{
-    //           &:before {
-    //             width: 25px;
-    //             height: 25px;
-    //             transition: background .3s ease;
-    //           }
-    //         }
-    //       }
-    //       .nav-link {
-    //         font-family: $font-bold;
-    //         font-size: 0px;
-    //         color: transparent;
-    //         line-height: 0;
-    //         white-space: nowrap;
-    //         padding: 0px;
-    //         transition: font-size .5s linear .2s;
-    //         &:hover,
-    //         &.active {
-    //           border: none;
-    //         }
-    //         &:before {
-    //           content: '';
-    //           width: 21px;
-    //           height: 21px;
-    //           position: absolute;
-    //           top: 50%;
-    //           left: 0px;
-    //           border: 1px solid white;
-    //           background: transparent;
-    //           border-radius: 50%;
-    //           transform: translate3d(0, -50%, 0);
-    //           transition: background .3s ease;
-    //           background: $black;
-    //         }
-    //       }
-    //     }
-    //   }
-    // }
+.scrolled {
+  #navbar-main {
+    background: rgba(0,0,0, .90);
+    transition: 1s ease-in-out 1s;
   }
 }
+
 
 /*
 * Ocultar menu en webforms
@@ -273,7 +213,9 @@ button.navbar-toggler {
     right: 0;
   }
   .content{
-
+    a{
+      color:$primary-header;
+    }
   }
   ul{
     display:none;
@@ -298,7 +240,7 @@ button.navbar-toggler {
         border-left: none;
         border-right: none;
         letter-spacing: 0;
-        color: $blue;
+        color: $primary-header;
         cursor: pointer;
         text-transform: uppercase;
         &:hover{
