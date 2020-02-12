@@ -10,8 +10,6 @@
       AOS.init({
         mirror: true
       });
-      console.log("ios init");
-      
     }
   };
 
