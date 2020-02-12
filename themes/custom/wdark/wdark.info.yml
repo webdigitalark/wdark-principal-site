@@ -6,7 +6,7 @@ description: 'W Dark theme'
 base theme: bootstrap_barrio
 
 libraries:
-  - wdark/bootstrap_cdn
+  - wdark/bootstrap
   - wdark/global-styling
   - wdark/noise-library
 
