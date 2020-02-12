@@ -12,7 +12,7 @@ bootstrap:
     js/bootstrap.min.js: {}
   css:
     component:
-      /libraries/font-awesome/css/font-awesome.min.css: {}
+      //stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: {}
       css/bootstrap.min.css: {}
 bootstrap_cdn:
   js:
