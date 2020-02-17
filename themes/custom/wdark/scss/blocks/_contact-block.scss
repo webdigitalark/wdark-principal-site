@@ -1,29 +1,27 @@
-.contact-block{
-  background: black;
-  width: 100%;
-  padding: 40px 0;
-  position:relative;
-  // color: black;
   .view-contactenos{
+    background: black;
+    width: 100%;
+    padding: 40px 0;
+    position:relative;
     .view-header{
       text-align: center;
       color: white;
     }
     .view-content{
       display: flex;
-      flex-direction: column;  
+      flex-direction: column;
       margin-top: 40px;
       @media (min-width: 768px){
         flex-direction: row;
         margin: 5% 10% 0 10%;
-      }  
+      }
       @media (min-width: 1520px){
         // margin: 10% 25%;
-      }                  
+      }
       .views-row{
         position:relative;
         color: white;
-        transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+        transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
         text-align: center;
         @media (min-width: 769px){
           flex: 1 0 30%;
@@ -32,16 +30,16 @@
         }
         @media (min-width: 992px){
           flex: 1 0 33%;
-          padding-right: 0; 
+          padding-right: 0;
         }
         i{
           color: transparent;
           // padding-bottom: 20px;
           &::before{
             color: white;
-            font-size: 40px; 
+            font-size: 40px;
           }
-        }                     
+        }
         h2{
           display:none;
         }
@@ -51,12 +49,12 @@
             height: 25px;
             position: absolute;
             left: 3px;
-          }         
+          }
         }
         .field--name-name-text{
           text-transform: uppercase;
-        }          
-        
+        }
+
       }
     }
   }
@@ -73,8 +71,8 @@
   //   width: 100%;
   //   // left: 50%;
   //   // top: 50%;
-  //   // transform: translate3d(-50%, -50%, 0);    
-  //   // margin-top: 25% 0;   
+  //   // transform: translate3d(-50%, -50%, 0);
+  //   // margin-top: 25% 0;
   //   // @media (min-width: 576px){
   //   //   max-width: 540px;
   //   // }
@@ -86,20 +84,20 @@
   //     left: 50%;
   //     top: 50%;
 
-  //     transform: translate3d(-50%, -50%, 0);          
+  //     transform: translate3d(-50%, -50%, 0);
   //   }
   //   @media (min-width: 1200px){
   //     max-width: 1140px;
 
-  //   }    
+  //   }
   //   fieldset.title-banner{
-  //     .aos-animate{   
+  //     .aos-animate{
   //       a{
   //         color:black;
   //         &:hover{
   //           color:$blue;
   //         }
-  //       }    
+  //       }
   //     }
   //     .fieldset-wrapper{
   //       // display: flex;
@@ -109,10 +107,10 @@
   //         display: flex;
   //         justify-content: space-between;
   //         width: 100%;
-  //       }        
+  //       }
   //       .field--name-field-nombre-del-sitio{
   //         @extend %h2-white;
-  //         font-size: 2rem;          
+  //         font-size: 2rem;
   //       }
   //       .field--name-field-ver-mas{
   //         a{
@@ -120,24 +118,24 @@
   //             &::before{
   //               padding: 10px;
   //             }
-  //           }            
+  //           }
   //         }
-  //       }        
-  //     }    
+  //       }
+  //     }
   //   }
   //   fieldset.data-description{
   //     .fieldset-wrapper{
   //       display: flex;
   //       flex-direction: column-reverse;
-  //       margin: 0 10%;      
+  //       margin: 0 10%;
   //       // display: flex;
   //       // width: 100%;
   //       @media (min-width: 992px){
   //         margin: auto;
   //         width: 100%;
-  //         justify-content: space-between; 
+  //         justify-content: space-between;
   //         flex-direction: initial;
-  //       }        
+  //       }
   //       .field--name-field-description-banner{
   //         width: 100%;
   //         .tpl-progress{
@@ -149,7 +147,7 @@
   //           height: 2px;
   //           background: #f0f0f0;
   //           border-radius: 0px;
-  //           box-shadow: none; 
+  //           box-shadow: none;
   //           .progress-bar{
   //             padding-top: 2px;
   //             position: relative;
@@ -160,11 +158,11 @@
   //             text-align: left;
   //             -moz-box-sizing: border-box;
   //             -webkit-box-sizing: border-box;
-  //             box-sizing: border-box; 
-  //             transition: width .6s ease;           
-  //           }         
+  //             box-sizing: border-box;
+  //             transition: width .6s ease;
+  //           }
   //         }
-  //       } 
+  //       }
   //       .field--name-body{
   //         text-align: justify;
   //         margin: 10% 0;
@@ -172,10 +170,10 @@
   //           margin: 0;
   //           margin-left: 10%;
   //         }
-  //         // margin-left: 10%;          
-  //       }          
+  //         // margin-left: 10%;
+  //       }
 
-  //     }       
-  //   }      
-  // }     
-}
+  //     }
+  //   }
+  // }
+// }

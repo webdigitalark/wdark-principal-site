@@ -46,7 +46,7 @@ function initParticles() {
   particleProps = new Float32Array(particlePropsLength);
 
   let i;
-  
+
   for (i = 0; i < particlePropsLength; i += particlePropCount) {
     initParticle(i);
   }
@@ -152,7 +152,7 @@ function createCanvas() {
 
 function resize() {
 	const { innerWidth, innerHeight } = window;
-	
+
 	canvas.a.width = innerWidth;
   canvas.a.height = innerHeight;
 
@@ -160,7 +160,7 @@ function resize() {
 
 	canvas.b.width = innerWidth;
   canvas.b.height = innerHeight;
-  
+
   ctx.b.drawImage(canvas.a, 0, 0);
 
   center[0] = 0.5 * canvas.a.width;
@@ -199,8 +199,8 @@ function draw() {
   drawParticles();
   renderGlow();
   renderToScreen();
+  window.requestAnimationFrame(draw);
 
-	window.requestAnimationFrame(draw);
 }
 
 window.addEventListener('load', setup);

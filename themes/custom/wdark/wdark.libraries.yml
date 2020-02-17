@@ -5,11 +5,12 @@ global-styling:
   css:
     component:
       css/style.css: {}
+      # css/bootstrap.min.css: {}
       # css/colors.css: {}
 bootstrap:
   js:
     js/popper.min.js: {}
-    # js/bootstrap.min.js: {}
+    js/bootstrap.min.js: {}
   css:
     component:
       //stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: {}
