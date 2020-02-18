@@ -75,6 +75,7 @@
             position: relative;
             transition: all 0.27s cubic-bezier(0.000,0.000,0.580,1.000);
             text-transform: uppercase;
+            text-align: center;
           }
         }
         &.service-descr{
@@ -89,6 +90,10 @@
             transform-origin: 50% 50%;
             transform: perspective(500px) rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
             transition: all 0.27s cubic-bezier(0.000,0.000,0.580,1.000);
+            text-align: justify;
+            .field--name-field-url{
+              text-align: center;
+            }
           }
         }
       }
