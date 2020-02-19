@@ -1,4 +1,19 @@
+
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1035;
+    overflow: visible;
+    background: rgba(0, 0, 0, 0.9);
+    //
+ }
+
+#page-wrapper {
+    z-index: 1;
+}
 //primer nivel
+
 header img {
   width: 200px;
   // height: 25px;
