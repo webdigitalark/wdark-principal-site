@@ -25,7 +25,7 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     preloader = document.getElementById('preloader');
-    preload(1);
+    preload(2);
   });
   Drupal.behaviors.wdark = {
     attach: function (context, settings) {
