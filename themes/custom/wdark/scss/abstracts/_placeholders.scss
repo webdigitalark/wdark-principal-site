@@ -15,12 +15,12 @@ $black: rgb(29, 29, 29);
 $gray: rgb(101, 107, 111);
 
 //fonts
-$font-bold: 'Square721Bt-Bold';
-$font-roman: 'Square721Bt-Roman';
+// $font-bold: 'Square721Bt-Bold';
+$font: 'Square721Bt';
 
 //banner y comedy
 %Headline {
-  font-family: $font-roman;
+  font-family: $font;
   font-size: 2rem;
   line-height: 1.05;
   display: block;
@@ -30,7 +30,7 @@ $font-roman: 'Square721Bt-Roman';
   }
 }
 %Supporting_Copy {
-  font-family: $font-roman;
+  font-family: $font;
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.702);
   line-height: 1.083;
@@ -43,7 +43,7 @@ $font-roman: 'Square721Bt-Roman';
 
 // titulo
 %h2 {
-  font-family: $font-roman;
+  font-family: $font;
   font-size: 3rem;
   color:  $blue;
   line-height: 1.058;
@@ -54,7 +54,7 @@ $font-roman: 'Square721Bt-Roman';
   }
 }
 %h2-white {
-  font-family: $font-roman;
+  font-family: $font;
   font-size: 3rem;
   color:  $black;
   line-height: 1.058;
@@ -66,7 +66,7 @@ $font-roman: 'Square721Bt-Roman';
 }
 //sub titulo
 %sub-titulo {
-  font-family: $font-roman;
+  font-family: $font;
   font-size: 1rem;
   color: $black;
   line-height: 1.083;
@@ -78,7 +78,7 @@ $font-roman: 'Square721Bt-Roman';
 }
 //descripcion
 %description {
-  font-family: $font-roman;
+  font-family: $font;
   font-size: .84rem;
   color: $gray;
   line-height: 1.688;

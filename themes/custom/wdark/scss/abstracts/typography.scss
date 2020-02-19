@@ -9,15 +9,28 @@
 $font-custom:  '../fonts/square721bt' !default;
 
 
+// @font-face {
+//   font-family: 'Square721Bt-Bold';
+//   src: url('#{$font-custom}/Square721Bt-Bold.ttf') format('truetype');
+//   font-display: swap;
+// }
+// @font-face {
+//     font-family: 'Square721Bt-Roman';
+//     src: url('#{$font-custom}/Square721Bt-Roman.ttf') format('truetype');
+//     font-display: swap;
+// }
+//EXO 2
+
 @font-face {
-  font-family: 'Square721Bt-Bold';
-  src: url('#{$font-custom}/Square721Bt-Bold.ttf') format('truetype');
+  font-family: 'Square721Bt';
+  src: url('#{$font-custom}/Square721Bt-Roman.ttf') format('truetype');
   font-display: swap;
 }
 @font-face {
-    font-family: 'Square721Bt-Roman';
-    src: url('#{$font-custom}/Square721Bt-Roman.ttf') format('truetype');
-    font-display: swap;
+  font-family: 'Square721Bt';
+  src: url('#{$font-custom}/Square721Bt-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-display: swap;
 }
 
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
