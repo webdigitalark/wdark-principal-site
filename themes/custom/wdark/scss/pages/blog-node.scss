@@ -1,6 +1,9 @@
 .node--type-blog{
   .node__content{
     background: white;
+    .field--name-body{
+      text-align: justify;
+    }
   }
 }
 .header-blog{
