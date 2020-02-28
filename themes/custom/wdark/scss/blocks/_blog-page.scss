@@ -97,6 +97,9 @@
         .views-field-field-blog-media{
           max-height: 340px;
           overflow: hidden;
+          .field-content{
+            height: 100%;
+          }
           img{
             transition: transform .2s;
             width: 100%;
