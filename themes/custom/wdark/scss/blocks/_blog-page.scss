@@ -77,6 +77,9 @@
       padding: 10px;
       .image-container{
         position: relative;
+        .title-blog{
+          text-transform: uppercase;
+        }
         .category-destacated{
           position: absolute;
           right: 0;
