@@ -98,9 +98,15 @@
   }
   .layout__region--second{
     width: 100%;
+    .block-addtoany{
+      display:none;
+    }
     @media(min-width: 992px){
       flex: 0 1 66% !important;
       margin-left: 8.33333333%;
+      .block-addtoany{
+        display:initial;
+      }
     }
     // @media(max-width: 992px){
       // padding: 2%;
