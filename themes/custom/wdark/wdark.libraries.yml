@@ -38,6 +38,13 @@ noise-library:
     js/noise/noise.min.js: {}
     js/noise/util.js: {}
     js/noise/swirl.js: {}
+highlightjs:
+    js:
+      //cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js: {}
+      js/loadhl.js: {}
+    css:
+      component:
+        //cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css: {}
   # css:
   #   component:
   #     css/style.css: {}

@@ -166,7 +166,7 @@ function bootstrap_barrio_preprocess_page(&$variables) {
        $variables['sidebar_second_attributes']['data-toggle'] = 'affix';
     }
   }
-  
+
   // Calculate widths
   if (theme_get_setting('bootstrap_barrio_content_offset')) {
     $variables['content_attributes']['class'][] =  'offset-md-' . theme_get_setting('bootstrap_barrio_content_offset');
@@ -507,7 +507,7 @@ function bootstrap_barrio_form_alter(&$form, \Drupal\Core\Form\FormStateInterfac
       $form[$key]['submit']['#attributes'] = new Attribute();
     }
     $outline = theme_get_setting('bootstrap_barrio_button_outline') ? 'btn-primary-outline' : 'btn-primary';
-// If use the $outline variable, HTML crashes. Even if use the value directly 
+// If use the $outline variable, HTML crashes. Even if use the value directly
     $form[$key]['submit']['#attributes']->addClass(['btn', 'btn-primary', 'btn-sm']);
   }
 }
@@ -536,11 +536,11 @@ function bootstrap_barrio_preprocess_input(&$variables) {
           $variables['attributes']['class']->addClass('btn-primary-outline');
         }
         else {
-          $variables['attributes']['class']->addClass('btn-primary');
+          $variables['attributes']['class'][] = 'btn-primary';
         }
       }
       if ( !in_array( 'btn', $variables['attributes']['class']->value() ) ) {
-        $variables['attributes']['class']->addClass('btn');
+        $variables['attributes']['class'][] = 'btn';
       }
       if ($button_size) {
         if (empty(array_intersect(['btn-sm', 'btn-lg'], $variables['attributes']['class']->value()))) {

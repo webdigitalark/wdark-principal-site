@@ -9,6 +9,7 @@ libraries:
   - wdark/bootstrap
   - wdark/global-styling
   - wdark/noise-library
+  - wdark/highlightjs
 
 regions:
   top_header: 'Top Header'
