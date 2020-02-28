@@ -79,6 +79,9 @@
         position: relative;
         .title-blog{
           text-transform: uppercase;
+          h2{
+            font-size: $font-26;
+          }
         }
         .category-destacated{
           position: absolute;
